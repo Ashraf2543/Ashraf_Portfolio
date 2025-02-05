@@ -1,0 +1,101 @@
+/* index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashraf Jamal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ashraf Jamal</h1>
+        <p>Cloud Computing | Software Developer</p>
+    </header>
+    <section class="contact">
+        <p>📞 +91 7897528758 | 📍 Pt. Deen Dayal Upadhyay Nagar</p>
+        <p>📧 <a href="mailto:ashrafjamal651@gmail.com">ashrafjamal651@gmail.com</a></p>
+        <p><a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">LeetCode</a> | <a href="#">GFG</a></p>
+    </section>
+    <section class="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech, Computer Science and Engineering</strong> - University of Petroleum and Energy Studies, Dehradun (Expected 2026)</p>
+        <p><strong>Class XII</strong> - Sunbeam School Mughalsarai (60.2%)</p>
+        <p><strong>Class X</strong> - Manas Convent School Mughalsarai (71.2%)</p>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <p><strong>Tech Stack:</strong> React.js, Angular.js, Node.js</p>
+        <p><strong>Databases:</strong> MongoDB, MySQL</p>
+        <p><strong>Other Skills:</strong> DSA, Java, C, C++, Python, JavaScript, HTML, CSS, Git, Linux Commands, Excel, PowerPoint</p>
+    </section>
+    <section class="experience">
+        <h2>Experience</h2>
+        <p><strong>food4thought Foundation (NGO) - Hyderabad, India</strong></p>
+        <p>Conducted research and nominated students who contributed to social causes.</p>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <p><strong>E-Commerce Website:</strong> Built using JavaScript & AngularJS, deployed on AWS Amplify.</p>
+        <p><strong>Time Tracking Browser Extension:</strong> Developed using JavaScript, HTML, CSS, with data visualization via Chart.js.</p>
+    </section>
+    <section class="certifications">
+        <h2>Courses and Certifications</h2>
+        <ul>
+            <li>AWS Academy Cloud Certifications</li>
+        </ul>
+    </section>
+    <section class="hobbies">
+        <h2>Hobbies</h2>
+        <p>Gaming, Reading Novels, Playing Cricket</p>
+    </section>
+</body>
+</html>
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: #1e90ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+h2 {
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.contact, .education, .skills, .experience, .projects, .certifications, .hobbies {
+    transition: transform 0.3s;
+}
+.contact:hover, .education:hover, .skills:hover, .experience:hover, .projects:hover, .certifications:hover, .hobbies:hover {
+    transform: scale(1.05);
+}
